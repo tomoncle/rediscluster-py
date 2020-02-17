@@ -35,11 +35,12 @@ or alternatively (you really should be using pip though):
 
     $ sudo easy_install rediscluster
 
-From source:
+From source (Python3.6 supported):
 
 ::
 
-    $ sudo python setup.py install
+    $ git clone https://github.com/tomoncle/rediscluster-py.git --depth 1 rediscluster
+    $ cd rediscluster && sudo python setup.py install
 
 Running Tests
 -------------
