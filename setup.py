@@ -16,11 +16,11 @@ except LookupError:
     func = lambda name, enc = ascii: {True: enc}.get(name == 'mbcs')
     codecs.register(func)
 
-with open('README.rst') as f:
-    long_description = f.read()
+# with open('README.rst') as f:
+#     long_description = f.read()
 
-with open('LICENSE') as f:
-    license = f.read()
+# with open('LICENSE') as f:
+#     license = f.read()
 
 setup(
     name='rediscluster',
